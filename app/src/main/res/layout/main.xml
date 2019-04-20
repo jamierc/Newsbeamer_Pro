@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/bar"
+        android:layout_width="1dp"
+        android:layout_height="30dp"></View>
+
+
+    <TextView
+
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select a publication:" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/recipe_array"
+        android:entryValues="@array/recipe_values"
+        android:prompt="@string/recipe_prompt" />
+
+
+    <EditText
+        android:id="@+id/usernameTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="user ID"
+
+        android:inputType="text"
+        android:visibility="invisible">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+
+        android:visibility="invisible">
+
+    </EditText>
+
+
+    <Button
+
+        android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:text="Send now" />
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="1dp"
+        android:layout_height="10dp"></View>
+
+    <View
+
+        android:id="@+id/bar2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/space1"
+        android:layout_width="1dp"
+        android:layout_height="10dp"></View>
+
+
+    <TextView
+
+        android:id="@+id/text3"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send later:" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set date" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set time (local)" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/sendButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send_scheduled"
+        android:text="Send scheduled" />
+
+
+    <EditText
+        android:id="@+id/dateDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:visibility="invisible">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/timeDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:visibility="invisible">
+
+    </EditText>
+
+
+</LinearLayout>
+    

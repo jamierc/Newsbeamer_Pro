@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'jamierc'
+            keyPassword 'dasilva1'
+            storeFile file('C:/Users/User/Documents/Android/key')
+            storePassword 'dasilva1'
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.jrcdesign.newsbeamer_pro"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 509
+        versionName 'pro posto'
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    // google play services integration
+    implementation('com.mopub:mopub-sdk:5.5.0@aar') {
+        transitive = true
+        exclude module: 'moat-mobile-app-kit'
+    }
+    implementation 'com.mopub.mediation:adcolony:3.3.8.0'
+    implementation 'com.facebook.android:audience-network-sdk:5.2.0'
+    implementation 'com.mopub.mediation:facebookaudiencenetwork:5.2.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'com.google.android.gms:play-services-ads:17.2.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
+    implementation files('adcolony.jar')
+}

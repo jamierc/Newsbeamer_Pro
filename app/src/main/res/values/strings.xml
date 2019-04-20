@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsBeamer Pro</string>
+    <string name="menu_settings">Settings</string>
+    <string name="strSelectedDate"></string>
+    <string name="strSelectedTime"></string>
+    <string name="recipe_prompt">Choose a publication</string>
+
+    <string-array name="cacheArray">
+        <item>"1 hour" </item>
+        <item>"2 hours" </item>
+        <item>"6 hours" </item>
+        <item>"12 hours" </item>
+        <item>"24 hours" </item>
+        <item>"48 hours" </item>
+        <item>"Any age" </item>
+
+
+    </string-array>
+    <string-array name="cacheValues">
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+        <item>48</item>
+        <item>Any</item>
+    </string-array>
+
+
+    <string-array name="recipe_array">
+        <item>1843 Magazine</item>
+        <item>BBC Brasil</item>
+        <item>BBC Chinese</item>
+        <item>BBC News</item>
+        <item>BBC Sport</item>
+        <item>Bild.de</item>
+        <item>Caravan Magazine</item>
+        <item>China Daily</item>
+        <item>Cinco Dias</item>
+        <item>Courrier International</item>
+        <item>CNET</item>
+        <item>CNN</item>
+        <item>Cyware</item>
+        <item>Der Spiegel</item>
+        <item>Dominion Post</item>
+        <item>Economic and Political Weekly</item>
+        <item>El Correo</item>
+        <item>El Mundo</item>
+        <item>El Pais</item>
+        <item>El Periodico de Catalunya</item>
+        <item>Esquire</item>
+        <item>Engadget</item>
+        <item>Expansion</item>
+        <item>Faz.net</item>
+        <item>Frontline</item>
+        <item>Folha de Sao Paulo</item>
+        <item>Foreign Affairs (subscription)</item>
+        <item>FOX News</item>
+        <item>Glasgow Herald</item>
+        <item>Heise</item>
+        <item>Il Fatto Quotidiano</item>
+        <item>Il Giornale</item>
+        <item>Il Post</item>
+        <item>India Today</item>
+        <item>Indian Express</item>
+        <item>La Vanguardia Digital</item>
+        <item>Le Devoir (subscription)</item>
+        <item>"L'express"</item>
+        <item>Le Monde</item>
+        <item>Le Temps (subscription)</item>
+        <item>Live Mint</item>
+        <item>Loksatta</item>
+        <item>Los Angeles Times</item>
+        <item>Marca</item>
+        <item>Metro UK</item>
+        <item>National Geographic</item>
+        <item>New Statesman</item>
+        <item>Nikkei Business Online (subscription)</item>
+        <item>Now Toronto</item>
+        <item>O Globo</item>
+        <item>PC World</item>
+        <item>Pocket</item>
+        <item>Pravda</item>
+        <item>Prospect Magazine (subscription)</item>
+        <item> Süddeutsche.de</item>
+        <item>Süddeutsche Zeitung (subscription)</item>
+        <item>The Atlantic</item>
+        <item>The Australian</item>
+        <item>The Economist (subscription)</item>
+        <item>The Economic Times India</item>
+        <item>The Guardian</item>
+        <item>The Hindu</item>
+        <item>The Houston Chronicle</item>
+        <item>The Independent</item>
+        <item>The Irish Times</item>
+        <item>The New York Times (subscription)</item>
+        <item>The New Yorker</item>
+        <item>The Scotsman</item>
+        <item>The Straits Times</item>
+        <item>The Sydney Morning Herald</item>
+        <item>The Telegraph (UK)</item>
+        <item>The Times and Sunday Times (UK) (subscription)</item>
+        <item>The Times of India</item>
+        <item>The Wall Street Journal (free)</item>
+        <item>The Wall Street Journal (subscription)</item>
+        <item>The Washington Post (subscription)</item>
+        <item>The Week</item>
+        <item>Time (subscription)</item>
+        <item>USA Today</item>
+        <item>Weblogs SL (Spanish)</item>
+        <item>Wired Daily Edition</item>
+        <item>ZAMAN Gazetesi</item>
+        <item>Zeit Online</item>
+        <item>Zero Hedge</item>
+    </string-array>
+
+    <string-array name="recipe_values">
+        <item>"1843_JRC"</item>
+        <item>BBC Brasil</item>
+        <item>BBC Chinese</item>
+        <item>bbcnewsfast</item>
+        <item>bbcsport_fast</item>
+        <item>"Bild.de"</item>
+        <item>Caravan Magazine</item>
+        <item>chinadaily</item>
+        <item>Cinco Dias</item>
+        <item>Courrier International</item>
+        <item>CNET News</item>
+        <item>CNN</item>
+        <item>"cyware"</item>
+        <item>Spiegel Online RSS - German alle Themen</item>
+        <item>"dominion"</item>
+        <item>Economic and Political Weekly</item>
+        <item>El Correo</item>
+        <item>El Mundo</item>
+        <item>El Pais</item>
+        <item>El Periodico de Catalunya</item>
+        <item>Esquire</item>
+        <item>Engadget</item>
+        <item>Expansion</item>
+        <item>FAZ.NET</item>
+        <item>Frontline</item>
+        <item>fol</item>
+        <item>Foreign Affairs (Subcription)</item>
+        <item>FOX News</item>
+        <item>Glasgow Herald</item>
+        <item>Heise Open</item>
+        <item>Il Fatto Quotidiano</item>
+        <item>Il Giornale</item>
+        <item>Il Post</item>
+        <item>India Today</item>
+        <item>Indian Express</item>
+        <item>La Vanguardia Digital</item>
+        <item>"Le Devoir "</item>
+        <item>"lexpress"</item>
+        <item>Le Monde</item>
+        <item>Le Temps</item>
+        <item>Live Mint</item>
+        <item>"Loksatta_1000"</item>
+        <item>Los Angeles Times</item>
+        <item>Marca</item>
+        <item>Metro UK</item>
+        <item>"natgeo"</item>
+        <item>New Statesman</item>
+        <item>Nikkei Business Online</item>
+        <item>Now Toronto</item>
+        <item>O Globo</item>
+        <item>PCWorld</item>
+        <item>Pocket</item>
+        <item>Pravda</item>
+        <item>Prospect Magazine (subscription)</item>
+        <item>"sudd"</item>
+        <item>sud</item>
+        <item>The Atlantic</item>
+        <item>The Australian</item>
+        <item>The Economist</item>
+        <item>The Economic Times India</item>
+        <item>The Guardian and The Observer</item>
+        <item>The Hindu</item>
+        <item>The Houston Chronicle</item>
+        <item>The Independent</item>
+        <item>The Irish Times</item>
+        <item>The New York Times</item>
+        <item>The New Yorker</item>
+        <item>The Scotsman</item>
+        <item>The Straits Times</item>
+        <item>The Sydney Morning Herald</item>
+        <item>Telegraph.co.uk</item>
+        <item>The Times &amp; Sunday Times (UK)</item>
+        <item>The Times of India</item>
+        <item>The Wall Street Journal</item>
+        <item>"wsj_JRC"</item>
+        <item>The Washington Post</item>
+        <item>TheWeek.com</item>
+        <item>Time</item>
+        <item>USA Today</item>
+        <item>"weblogs"</item>
+        <item>Wired Daily Edition</item>
+        <item>ZAMAN Gazetesi</item>
+        <item>Zeit Online</item>
+        <item>Zero Hedge</item>
+    </string-array>
+
+    <string-array name="listArray">
+        <item>Mobi (Kindle)</item>
+        <item>ePub (Nook, Kobo)</item>
+        <item>iPad</item>
+        <item>PDF</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>kindle</item>
+        <item>kobo</item>
+        <item>ipad</item>
+        <item>pdf</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\Documents\\Android\\Newsbeamer Pro\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lt\\values-lt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.8.3.aar\\be725de68aca5f98c318751cba991c68\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,133,217,289,360,425,506,584,664,742,814,883,952,1033,1097,1164,1232,1313,1388,1441,1499,1554,1615,1679,1737,1810,1877,1951,2010,2073,2150,2227",
+                        "endColumns": "77,83,71,70,64,80,77,79,77,71,68,68,80,63,66,67,80,74,52,57,54,60,63,57,72,66,73,58,62,76,76,55",
+                        "endOffsets": "128,212,284,355,420,501,579,659,737,809,878,947,1028,1092,1159,1227,1308,1383,1436,1494,1549,1610,1674,1732,1805,1872,1946,2005,2068,2145,2222,2278"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "323,401,485,557,628,693,774,852,932,1010,1082,1151,1220,1301,1365,1432,1500,1581,1656,1709,1767,1822,1883,1947,2005,2078,2145,2219,2278,2341,2418,2495",
+                        "endColumns": "77,83,71,70,64,80,77,79,77,71,68,68,80,63,66,67,80,74,52,57,54,60,63,57,72,66,73,58,62,76,76,55",
+                        "endOffsets": "396,480,552,623,688,769,847,927,1005,1077,1146,1215,1296,1360,1427,1495,1576,1651,1704,1762,1817,1878,1942,2000,2073,2140,2214,2273,2336,2413,2490,2546"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\f2b3ce339b602e81569e2ef7b8486044\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "217",
+                        "endOffsets": "464"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "217",
+                        "endOffsets": "318"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b6c91422067bd73530cd05815552a979\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "42",
+                        "startColumns": "4",
+                        "startOffsets": "3159",
+                        "endColumns": "100",
+                        "endOffsets": "3255"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-17.2.0.aar\\7e4841404767a400e64f83fe519ba27d\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,272,385,450,515,599,701",
+                        "endColumns": "72,112,64,64,83,101,77",
+                        "endOffsets": "271,384,449,514,598,700,778"
+                    },
+                    "to": {
+                        "startLines": "35,36,37,38,39,40,41",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2551,2628,2745,2814,2883,2971,3077",
+                        "endColumns": "76,116,68,68,87,105,81",
+                        "endOffsets": "2623,2740,2809,2878,2966,3072,3154"
+                    }
+                }
+            ]
+        }
+    ]
+}

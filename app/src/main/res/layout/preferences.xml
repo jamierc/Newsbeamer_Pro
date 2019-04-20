@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Options">
+        
+            <EditTextPreference
+                android:name="EditText Preference"
+                android:hint="e.g. user@kindle.com"
+                android:inputType="textEmailAddress"
+                android:key="editTextPref"
+                android:summary="Your kindle email address"
+                android:title="Email address" />
+        
+            
+                <ListPreference
+                        android:defaultValue="kindle"
+                        android:entries="@array/listArray"
+                    android:entryValues="@array/listValues"
+                    android:key="listPref"
+                    android:summary="Sets output format"
+                    android:title="Output" />
+
+
+            <Preference
+                    android:key="customPref"
+                android:summary=""
+                android:title="Email the devs"
+            
+                />
+
+        </PreferenceCategory>
+</PreferenceScreen>

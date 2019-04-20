@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mopub:mopub-sdk-rewardedvideo:5.5.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-5.5.0.aar/ee0fe8959a95fd2778725850bf11b1d8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-5.5.0.aar/ee0fe8959a95fd2778725850bf11b1d8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mopub/mopub-sdk-rewardedvideo/5.5.0/ed56faf8a44f144949c921420dc3782f37ab482e/mopub-sdk-rewardedvideo-5.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

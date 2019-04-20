@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Mar 21 09:14:37 SGT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\User\\Documents\\Android\\Newsbeamer Pro\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1
