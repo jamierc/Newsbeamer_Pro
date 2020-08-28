@@ -1,0 +1,39 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class AdvancedUserRecipe1598295914(BasicNewsRecipe):
+    title          = 'ProNews'
+    oldest_article = 7
+    max_articles_per_feed = 50
+    auto_cleanup   = True
+
+    feeds          = [
+        
+        ('First Post','https://www.firstpost.com/rss/home.xml'),
+        ('The Hindu','https://www.thehindu.com/news/feeder/default.rss'),
+        ('Financial Exp','https://www.financialexpress.com/feed/'),
+        ('Bus. Standard','https://www.business-standard.com/rss/todays-paper.rss'),
+        ('Bus. Insider','https://www.businessinsider.com/rss?IR=T'),
+        
+        ('FE Economy','https://www.financialexpress.com/economy/feed/'),
+        ('MC Stocks', 'http://www.moneycontrol.com/rss/buzzingstocks.xml'),
+        ('MC Markets', 'http://www.moneycontrol.com/rss/marketreports.xml'),
+        ('BS Companies','https://www.business-standard.com/rss/companies-101.rss'),
+        ('BS Editors','https://www.business-standard.com/rss/bsrss.xml'),
+        
+        ('OTv','https://odishatv.in/feed'),
+        ('Hindu Editorial', 'https://www.thehindu.com/opinion/editorial/feeder/default.rss'),
+        ('Mint Opinion', 'https://www.livemint.com/rss/opinion'),
+
+        ('Hindu World.', 'https://www.thehindu.com/news/international/feeder/default.rss'),
+        ('FPost World','https://www.firstpost.com/rss/world.xml'),
+        ('FE World','https://www.financialexpress.com/market/world-markets/feed/'),
+        
+        ('FPost Sports','https://www.firstpost.com/rss/sports.xml'),
+        ('FE Tech','https://www.financialexpress.com/industry/tech/feed/'),
+        ('Wait But Why', 'https://waitbutwhy.com/feed'),
+        ('Finshots Daily','https://finshots.in/archive/rss/'),
+
+    ]
