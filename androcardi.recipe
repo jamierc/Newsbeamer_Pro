@@ -1,0 +1,25 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class AdvancedUserRecipe1603099369(BasicNewsRecipe):
+    title          = 'Androcardi'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup   = True
+
+    feeds          = [
+        ('The Verge', 'http://www.theverge.com/rss/index.xml'),
+        ('WIRED', 'http://feeds.wired.com/wired/index'),
+        ('Hacker News', 'https://news.ycombinator.com/rss'),
+        ('Engadget', 'http://www.engadget.com/rss.xml'),
+        ('Il Fatto Quotidiano', 'http://www.ilfattoquotidiano.it/feed/'),
+        ('Toms Hardware', 'https://www.tomshardware.com/feeds/all'),
+        ('CNN.com - Top Stories', 'http://rss.cnn.com/rss/cnn_topstories.rss'),
+        ('Laptop Mag Main Feed', 'http://www.laptopmag.com/feeds/mainfeed.rss'),
+        ('Techradar', 'http://www.techradar.com/rss'),
+        ('Atlas Obscura', 'http://atlasobscura.com/rss.xml'),
+        ('RSS di - ANSA.it', 'http://www.ansa.it/web/ansait_web_rss_homepage.xml'),
+        ('Il Sole 24 ORE', 'https://www.ilsole24ore.com/rss/italia--attualita.xml'),
+    ]
